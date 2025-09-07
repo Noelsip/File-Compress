@@ -6,8 +6,8 @@ from PyPDF2 import PdfReader, PdfWriter
 class FileCompressor:
     def __init__(self):
         self.root = Tk()
-        self.root.title("File Compressor - Press File")
-        self.root.geometry("450x450")
+        self.root.title("Compressor - Press File")
+        self.root.geometry("700x700")
         
         self.selected_file = StringVar()
         self.quality_recommendation = StringVar()
